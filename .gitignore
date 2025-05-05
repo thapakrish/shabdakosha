@@ -1,0 +1,27 @@
+# Python-generated files
+# __pycache__/
+# *.py[oc]
+# build/
+# dist/
+# wheels/
+# *.egg-info
+
+
+# # Ignore everything by default
+# *
+
+# But DO NOT ignore the following:
+!/.gitignore
+!/create_db.py
+!/data//data/*
+!/data/source/
+!/data/source/Sabdakosh10th.pdf
+!/data/source/SanketaChinha.pdf
+!/data/ocr_results/*/*.txt
+
+!uv.lock
+!pyproject.toml
+!README.md
+
+# Virtual environments
+.venv
