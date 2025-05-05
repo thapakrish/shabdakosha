@@ -1,8 +1,8 @@
-# Shabdakosha OCR
+## Shabdakosha
 
 This project aims to create a clean, searchable dictionary database from OCR results of scanned pages. We need your help to correct errors in the automatically generated text!
 
-## How to Contribute
+### How to Contribute
 
 The main way to contribute is by correcting the OCR text files located in the `data/ocr_results/` directory. These files often contain errors from the optical character recognition process.
 
@@ -15,16 +15,18 @@ The main way to contribute is by correcting the OCR text files located in the `d
 6.  **Push** the changes back to your fork on GitHub.
 7.  Submit a **Pull Request** (PR) from your fork back to this main repository.
 
+Alternatively, if you find an error but don't have time to fix it yourself, please **File an Issue**! Describe the error, the file it's in (e.g., `data/ocr_results/100/kosha_25_26.txt`), and the page number in the PDF (`data/source/Sabdakosh10th.pdf`) if possible. Suggestions for improvements are also welcome via issues.
+
 We'll review your changes and merge them. Thank you for helping improve this resource!
 
-## Running the Database Creation Script
+### Running the Database Creation Script
 
 After corrections are made and merged, you can regenerate the database using the provided script.
 
 - Run the script: `python create_db.py`
 - This will generate or update the `data/dictionary.db` file.
 
-# Database Structure
+## Database Structure
 
 The `create_db.py` script generates a SQLite database file located at `data/dictionary.db`. This database contains a single table named `entries` with the following structure:
 
