@@ -7,8 +7,8 @@
 # *.egg-info
 
 
-# # Ignore everything by default
-# *
+# Ignore everything by default
+*
 
 # But DO NOT ignore the following:
 !/.gitignore
